@@ -1,0 +1,256 @@
+* {
+  box-sizing: border-box;
+}
+/* Navbar */
+
+.navbar {
+  background-color: #000;
+}
+.navbar-right span a {
+  text-decoration: none;
+}
+.navbar-right .sign-up {
+  background-color: #fff;
+  color: #000 !important;
+  padding: 10px;
+  border-radius: 20px;
+  opacity: 0.9;
+}
+
+.navbar-right .sign-up:hover {
+  color: #000 !important;
+}
+/* first section */
+
+.jumbotron {
+  background-image: url("./images/Earner_Home_bg_desktop2x.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.card {
+  width: 130%;
+  height: 140%;
+  border-radius: 0 !important;
+  height: 110%;
+}
+
+.row-bordere {
+  content: "";
+  display: block;
+  border-bottom: 1px solid #ccc;
+  margin: 0 15px;
+}
+
+.info-1 {
+  line-height: 40px;
+  position: relative;
+  left: 40px;
+}
+
+.info-1 h1,
+p {
+  margin-top: 30px;
+}
+.btn-dark {
+  margin-top: 10px;
+  background-color: #000 !important;
+  border-radius: 0 !important;
+}
+
+.btn-1 {
+  display: block;
+  line-height: 90px;
+  color: #000;
+}
+.btn-1:hover {
+  text-decoration: none;
+  color: #000;
+}
+.btn-1::after {
+  content: "";
+  display: block;
+  border-bottom: 1px solid #ccc;
+  width: 54%;
+  margin-top: -24px;
+}
+
+/* second section */
+.Uber-for-Business {
+  background-image: url("./images/DotCom_Update_U4B_bg_ipad.png");
+  background-size: cover;
+  background-position: center;
+  margin-top: -32px;
+  height: 44vh;
+  opacity: 0.7;
+}
+
+.Uber-data {
+  position: relative;
+  top: 100px;
+  line-height: 30px;
+}
+
+/* Third section */
+.Uber-safety .container {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.Uber-safety img {
+  width: 540px;
+  height: 400px;
+}
+
+.container .safety h4 {
+  margin-top: 20px;
+  font-size: 1.3em;
+}
+
+.container .safety span a {
+  color: #000;
+}
+
+.container .safety span a:hover {
+  text-decoration: none;
+}
+
+.container .safety .link-under-border {
+  border-bottom: 1px solid #ccc;
+}
+.cities {
+  margin-top: 81px;
+}
+
+.container .cities h4 {
+  margin-top: 20px;
+  font-size: 1.3em;
+}
+
+.container .cities span a {
+  color: #000;
+}
+
+.container .cities span a:hover {
+  text-decoration: none;
+}
+
+.container .cities .link-under-border {
+  border-bottom: 1px solid #ccc;
+}
+
+/* fourth section */
+
+.information .container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 90px;
+  overflow: hidden;
+}
+
+.information .container h4 {
+  margin-top: 22px;
+}
+
+.information .container a {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid #ccc;
+}
+
+/* fifth section */
+.usber-app {
+  display: flex;
+  background-color: #f6f6f6;
+  height: 40vh;
+  margin-top: 80px;
+}
+
+.container h3 {
+  margin-top: 40px;
+}
+.left-side,
+.right-side {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 17px;
+}
+
+.usber-app .row img {
+  width: 120px;
+  height: 120px;
+}
+
+.left-side a i {
+  margin-left: 22px;
+  color: #000;
+  transition: all 0.5s ease-in-out;
+}
+.left-side a i:hover {
+  transform: translate(10px);
+  color: #000;
+}
+
+.right-side a i {
+  margin-left: 22px;
+  color: #000;
+  transition: all 0.5s ease-in-out;
+}
+.right-side a i:hover {
+  transform: translate(10px);
+  color: #000;
+}
+
+/* footer section */
+.footer {
+  background-color: #000000;
+  min-height: 610px;
+  overflow: hidden;
+}
+
+.footer .container p {
+  line-height: 200px;
+}
+.footer .container h4 {
+  position: relative;
+  top: 50px;
+}
+
+.footer .container ul {
+  line-height: 35px;
+}
+.footer .container a {
+  text-decoration: none;
+}
+
+.apple-google-images > img {
+  margin-left: 10px;
+  position: relative;
+  top: -60px;
+  left: 220px;
+  width: 150px;
+  height: 150px;
+}
+.last-row {
+  margin-top: -90px;
+}
+
+.py-5 i:hover {
+  background-color: #ccc;
+}
+
+@media screen and (max-width: 700px) {
+  .navbar ul li a:hover {
+    width: 30%;
+    background-color: transparent;
+  }
+
+  .usber-app {
+    height: 100vh;
+  }
+}
